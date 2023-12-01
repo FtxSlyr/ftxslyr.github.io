@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="FtxSlyr_ | Tugas XII MIPA 4 2024" />
+  <meta property="og:type" content="Website" />
+  <meta property="og:url" content="https://ftxslyr.github.io/Tugas" />
+  <meta property="og:image" content="icon.webp" />
+  <meta property="og:description" content='Halo, MIPA 4! Website ini dibuat dengan tujuan agar kita tidak lupa dengan tugas - tugas yang sudah diberikan oleh bapak/ibu guru mapel yang mengajar kita.' />
+  <meta name="theme-color" content="#fff000">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FtxSlyr_ | Tugas XII MIPA 4 2024</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="icon" type="image/jpeg" href="icon.webp" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo">
+        <a href="#">Tugas XII MIPA 4</a>
+      </div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <li><a href="https://ftxslyr.github.io/">Home</a></li>
+        <li><a href="https://ftxslyr.github.io/About">About</a></li>
+        <li><a href="https://ftxslyr.github.io/Social_Medias">Social Medias</a></li>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+  <div class="tugasbanner"></div>
+
+  <div class="isi">
+    <div class="about">
+      <h3>Halo, MIPA 4!!</h3>
+      <p>Website ini dibuat dengan tujuan agar kita tidak lupa dengan tugas - tugas yang sudah diberikan oleh bapak/ibu guru mapel yang mengajar kita. mohon maaf jika saya baru membuat daftar tugas ini pada semester 2. karena pada semester 1 saya tidak ada niatan dan ide untuk membuat website ini. untuk kedepannya saya akan membantu bendahara membuat page khusus untuk mendata siapa yang sudah dan belum membayar uang kas. siapa tau bukunya hilang atau ada yang ingin mengecek sudahkah ia membayar uang kas tanpa menemui bendahara.</p>
+      <p>Mohon maaf jika tampilan web masih jelek karena saya masih coding sendiri dan bukan sesepuh, lagipula pembuatan website ini "zero budget" atau gratisan. cukup basa basi, berikut Daftar Tugas XII MIPA 4 2024 :</p>
+    </div>
+
+    <section id="#Januari">
+      <h3>List tugas Januari 2024</h3>
+      <p class="nigger">XX Januari 2024 :
+          <ul>
+              <li> <strong>Bahasa inggris : Kerjakan LKS Hal. 2 Pilgan saja.</strong>
+                  <br> DEADLINE : Hari senin xx januari 2024!!!</li>
+              <li><strong> Matematika Wajib : Imagehere</strong>
+                  <br> DEADLINE : Hari Rabu xx januari 2024!!!</li>  
+          </ul>
+      </p>
+      </section>
+  </div>
+    
+  <hr>
+  
+  <div class="footer">
+    <p>Made By Hanifa Al Fatih</p>
+    <p>&copy; FtxSlyr_</p>
+  </div>
+
+  <script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = ()=>{
+      navbar.classList.add("show");
+      menuBtn.classList.add("hide");
+      body.classList.add("disabled");
+    }
+    cancelBtn.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+  </script>
+  </div>
+</body>
+</html>
